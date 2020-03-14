@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jiteshkaranjkar/Projects/battleshipgame/src/BattleshipGame/BattleshipGame.csproj": {}
+  },
+  "projects": {
+    "/Users/jiteshkaranjkar/Projects/battleshipgame/src/BattleshipGame/BattleshipGame.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jiteshkaranjkar/Projects/battleshipgame/src/BattleshipGame/BattleshipGame.csproj",
+        "projectName": "BattleshipGame",
+        "projectPath": "/Users/jiteshkaranjkar/Projects/battleshipgame/src/BattleshipGame/BattleshipGame.csproj",
+        "packagesPath": "/Users/jiteshkaranjkar/.nuget/packages/",
+        "outputPath": "/Users/jiteshkaranjkar/Projects/battleshipgame/src/BattleshipGame/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jiteshkaranjkar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.3.104.35, )"
+            },
+            "AWSSDK.ElasticBeanstalk": {
+              "target": "Package",
+              "version": "[3.3.100.142, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
